@@ -9,7 +9,7 @@ export default defineConfig({
   name: 'default',
   title: 'Vision I entertainment',
   basePath: '/studio',
-  projectId: 'x81qra3s',
+  projectId:'x8lqra3s',
   dataset,
   schema,
   plugins: [
