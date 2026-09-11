@@ -127,37 +127,39 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Brands We Are Working With Section */}
+      {/* Brands We Are Working With */}
+      
+          {/* Brands We Are Working With */}
       <section className="py-20 bg-[#121212] border-t border-b border-[#2a2a2a] px-6">
         <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-2xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 via-orange-200 to-[#D4AF37]">
+          <h2 className="text-2xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 via-orange-300 to-[#D4AF37]">
             Brands We Are Working With
           </h2>
           <p className="text-gray-400 text-sm mt-4 mb-16 max-w-2xl mx-auto font-light">
             Proudly collaborating with leading brands and enterprises to deliver exceptional live experiences.
           </p>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 items-center justify-center">
-            <div className="flex items-center justify-center p-4 bg-white/[0.02] border border-white/5 rounded-xl hover:border-[#D4AF37]/50 transition">
-              <img src="/brand1.png" alt="Brand 1" className="max-h-12 object-contain filter grayscale hover:grayscale-0 transition" />
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 items-center justify-center max-w-5xl mx-auto">
+            <div className="flex items-center justify-center p-6 bg-white/[0.03] border border-white/10 rounded-2xl hover:border-[#D4AF37]/50 transition duration-300 h-28 shadow-lg">
+              <img src="/brand1.png" alt="Brand 1" className="max-h-14 w-auto object-contain transition transform hover:scale-105" />
             </div>
-            <div className="flex items-center justify-center p-4 bg-white/[0.02] border border-white/5 rounded-xl hover:border-[#D4AF37]/50 transition">
-              <img src="/brand2.png" alt="Brand 2" className="max-h-12 object-contain filter grayscale hover:grayscale-0 transition" />
+            <div className="flex items-center justify-center p-6 bg-white/[0.03] border border-white/10 rounded-2xl hover:border-[#D4AF37]/50 transition duration-300 h-28 shadow-lg">
+              <img src="/brand2.png" alt="Brand 2" className="max-h-14 w-auto object-contain transition transform hover:scale-105" />
             </div>
-            <div className="flex items-center justify-center p-4 bg-white/[0.02] border border-white/5 rounded-xl hover:border-[#D4AF37]/50 transition">
-              <img src="/brand3.png" alt="Brand 3" className="max-h-12 object-contain filter grayscale hover:grayscale-0 transition" />
+            <div className="flex items-center justify-center p-6 bg-white/[0.03] border border-white/10 rounded-2xl hover:border-[#D4AF37]/50 transition duration-300 h-28 shadow-lg">
+              <img src="/brand3.png" alt="Brand 3" className="max-h-14 w-auto object-contain transition transform hover:scale-105" />
             </div>
-            <div className="flex items-center justify-center p-4 bg-white/[0.02] border border-white/5 rounded-xl hover:border-[#D4AF37]/50 transition">
-              <img src="/brand4.png" alt="Brand 4" className="max-h-12 object-contain filter grayscale hover:grayscale-0 transition" />
+            <div className="flex items-center justify-center p-6 bg-white/[0.03] border border-white/10 rounded-2xl hover:border-[#D4AF37]/50 transition duration-300 h-28 shadow-lg">
+              <img src="/brand4.jpeg" alt="Brand 4" className="max-h-14 w-auto object-contain transition transform hover:scale-105" />
             </div>
-            <div className="flex items-center justify-center p-4 bg-white/[0.02] border border-white/5 rounded-xl hover:border-[#D4AF37]/50 transition">
-              <img src="/brand5.png" alt="Brand 5" className="max-h-12 object-contain filter grayscale hover:grayscale-0 transition" />
+            <div className="flex items-center justify-center p-6 bg-white/[0.03] border border-white/10 rounded-2xl hover:border-[#D4AF37]/50 transition duration-300 h-28 shadow-lg">
+              <img src="/brand5.png" alt="Brand 5" className="max-h-14 w-auto object-contain transition transform hover:scale-105" />
             </div>
-            <div className="flex items-center justify-center p-4 bg-white/[0.02] border border-white/5 rounded-xl hover:border-[#D4AF37]/50 transition">
-              <img src="/brand6.png" alt="Brand 6" className="max-h-12 object-contain filter grayscale hover:grayscale-0 transition" />
+            <div className="flex items-center justify-center p-6 bg-white/[0.03] border border-white/10 rounded-2xl hover:border-[#D4AF37]/50 transition duration-300 h-28 shadow-lg">
+              <img src="/brand6.jpeg" alt="Brand 6" className="max-h-14 w-auto object-contain transition transform hover:scale-105" />
             </div>
-            <div className="flex items-center justify-center p-4 bg-white/[0.02] border border-white/5 rounded-xl hover:border-[#D4AF37]/50 transition col-span-2 sm:col-span-1">
-              <img src="/brand7.png" alt="Brand 7" className="max-h-12 object-contain filter grayscale hover:grayscale-0 transition" />
+            <div className="flex items-center justify-center p-6 bg-white/[0.03] border border-white/10 rounded-2xl hover:border-[#D4AF37]/50 transition duration-300 h-28 shadow-lg col-span-2 sm:col-span-1">
+              <img src="/brand7.jpeg" alt="Brand 7" className="max-h-14 w-auto object-contain transition transform hover:scale-105" />
             </div>
           </div>
         </div>
@@ -165,61 +167,63 @@ export default function Home() {
 
       {/* Modern Glassmorphism & Neon Gold Footer */}
       <footer id="contact" className="relative bg-[#070708] border-t border-white/5 py-20 px-6 overflow-hidden">
-        {/* Background Ambient Gold Glow */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-[#D4AF37]/10 blur-[140px] pointer-events-none rounded-full" />
         
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 relative z-10">
-          {/* Card 1: Let's Connect */}
-          <div className="group relative overflow-hidden rounded-2xl bg-white/[0.02] backdrop-blur-xl border border-white/[0.08] p-6 md:p-8 hover:border-[#D4AF37]/40 transition duration-500 shadow-2xl">
-            <div className="bg-white/[0.03] border border-white/[0.08] px-5 py-3 rounded-xl mb-6">
-              <h3 className="font-black text-xl tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 via-orange-300 to-[#D4AF37]">
-                Let's Connect
-              </h3>
-            </div>
-            <p className="text-sm text-gray-300 font-light leading-relaxed">
-              Creating magical live experiences and grand event productions across locations.
-            </p>
-          </div>
-
-          {/* Card 2: Contact Us */}
-          <div className="group relative overflow-hidden rounded-2xl bg-white/[0.02] backdrop-blur-xl border border-white/[0.08] p-6 md:p-8 hover:border-[#D4AF37]/40 transition duration-500 shadow-2xl">
-            <div className="bg-white/[0.03] border border-white/[0.08] px-5 py-3 rounded-xl mb-6">
-              <h3 className="font-black text-xl tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 via-orange-300 to-[#D4AF37]">
-                Contact Us
-              </h3>
-            </div>
-            <div className="space-y-3 text-sm text-gray-300 font-light">
-              <p className="flex items-center space-x-2 hover:text-[#D4AF37] transition-colors duration-300 cursor-pointer">
-                <span>📧</span>
-                <span>entertainmentvision1@gmail.com</span>
-              </p>
-              <p className="flex items-center space-x-2 hover:text-[#D4AF37] transition-colors duration-300 cursor-pointer">
-                <span>📧</span>
-                <span>arnab@vientertainment.in</span>
-              </p>
-              <p className="flex items-center space-x-2 text-white font-medium pt-3 border-t border-white/10">
-                <span>📞</span>
-                <span>Arnab Ghosh : +91 9038269681</span>
+          <div className="group relative overflow-hidden rounded-2xl bg-white/[0.02] backdrop-blur-xl border border-white/[0.08] p-6 md:p-8 hover:border-[#D4AF37]/40 transition duration-500 shadow-2xl flex flex-col justify-between">
+            <div>
+              <div className="inline-block bg-white/[0.03] border border-white/[0.08] px-4 py-2 rounded-xl mb-6">
+                <h3 className="font-black text-xl tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 via-orange-300 to-[#D4AF37]">
+                  Let's Connect
+                </h3>
+              </div>
+              <p className="text-sm text-gray-300 font-light leading-relaxed">
+                Creating magical live experiences and grand event productions across locations.
               </p>
             </div>
           </div>
 
-          {/* Card 3: Office Address */}
-          <div className="group relative overflow-hidden rounded-2xl bg-white/[0.02] backdrop-blur-xl border border-white/[0.08] p-6 md:p-8 hover:border-[#D4AF37]/40 transition duration-500 shadow-2xl">
-            <div className="bg-white/[0.03] border border-white/[0.08] px-5 py-3 rounded-xl mb-6">
-              <h3 className="font-black text-xl tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 via-orange-300 to-[#D4AF37]">
-                Office Address
-              </h3>
+          <div className="group relative overflow-hidden rounded-2xl bg-white/[0.02] backdrop-blur-xl border border-white/[0.08] p-6 md:p-8 hover:border-[#D4AF37]/40 transition duration-500 shadow-2xl flex flex-col justify-between">
+            <div>
+              <div className="inline-block bg-white/[0.03] border border-white/[0.08] px-4 py-2 rounded-xl mb-6">
+                <h3 className="font-black text-xl tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 via-orange-300 to-[#D4AF37]">
+                  Contact Us
+                </h3>
+              </div>
+              <div className="space-y-3 text-sm text-gray-300 font-light">
+                <p className="flex items-center space-x-2 hover:text-[#D4AF37] transition-colors duration-300 cursor-pointer">
+                  <span>📧</span>
+                  <span>entertainmentvision1@gmail.com</span>
+                </p>
+                <p className="flex items-center space-x-2 hover:text-[#D4AF37] transition-colors duration-300 cursor-pointer">
+                  <span>📧</span>
+                  <span>arnab@vientertainment.in</span>
+                </p>
+                <p className="flex items-center space-x-2 text-white font-medium pt-3 border-t border-white/10">
+                  <span>📞</span>
+                  <span>Arnab Ghosh : +91 9038269681</span>
+                </p>
+              </div>
             </div>
-            <div className="space-y-4 text-sm text-gray-300 font-light leading-relaxed">
-              <p className="flex items-start space-x-2">
-                <span className="mt-0.5">🏢</span>
-                <span>795, Raja Ram Mohan Roy Road, Kolkata 700008 (Office)</span>
-              </p>
-              <p className="flex items-start space-x-2 pt-2 border-t border-white/10">
-                <span className="mt-0.5">📍</span>
-                <span>Yani Sarani, Diamond Park, Joka, Kolkata, West Bengal 700104</span>
-              </p>
+          </div>
+
+          <div className="group relative overflow-hidden rounded-2xl bg-white/[0.02] backdrop-blur-xl border border-white/[0.08] p-6 md:p-8 hover:border-[#D4AF37]/40 transition duration-500 shadow-2xl flex flex-col justify-between">
+            <div>
+              <div className="inline-block bg-white/[0.03] border border-white/[0.08] px-4 py-2 rounded-xl mb-6">
+                <h3 className="font-black text-xl tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 via-orange-300 to-[#D4AF37]">
+                  Office Address
+                </h3>
+              </div>
+              <div className="space-y-4 text-sm text-gray-300 font-light leading-relaxed">
+                <p className="flex items-start space-x-2">
+                  <span className="mt-0.5">🏢</span>
+                  <span>795, Raja Ram Mohan Roy Road, Kolkata 700008 (Office)</span>
+                </p>
+                <p className="flex items-start space-x-2 pt-2 border-t border-white/10">
+                  <span className="mt-0.5">📍</span>
+                  <span>Yani Sarani, Diamond Park, Joka, Kolkata, West Bengal 700104</span>
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -246,7 +250,7 @@ export default function Home() {
       {selectedImage && (
         <div 
           className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4 cursor-pointer"
-          onClick={() => setSelectedImage(null)}
+          onClick={() => setSelectedImage(label => null)}
         >
           <div className="relative max-w-4xl w-full">
             <img src={selectedImage} alt="Expanded view" className="w-full max-h-[85vh] object-contain rounded-xl" />
